@@ -1,153 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
 
-body{
-    color:#757575;
-    background-color: #F5F5F5;
-    letter-spacing: 0.03em;
-    font-family: Roboto, sans-serif;
-}
-    a {text-decoration: none;}
-    
-    ul {
-        list-style: none;
-        }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Studio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!--Навигація-->
+    <header >
+        <nav class="nav">
+            <a href="" lang="en" class="nav-web">Web<span class="nav-std">Studio</span></a>
+            <ul >
+                <li ><a href="">Студія</a></li>
+                <li><a href="./portfolio.html">Портфоліо</a></li>
+                <li><a href="">Контакти</a></li>
+            </ul>
+        </nav>
+            <!--Контактні данні-->
+           
+                <ul class="contacts">
+                    <li><a href="meilto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+           
+       
+    </header>
+    <main>
+        <!--Замовити послугу-->
+        <section class="hero">
+            <h1 class="hiro-title">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="button">Замовити послугу</button>
+        </section>
+        <!--Структура діяльності-->
+        <section>
+            <h2 hidden>Особливості</h2>
+            <ul>
+                <li>
+                    <h3 class="item">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                </li>
+                <li>
+                    <h3 class="item">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                </li>
+                <li>
+                    <h3 class="item">ПЛАНУВАННЯ</h3>
+                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                </li>
+                <li>
+                    <h3 class="item">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <!--Чим ми займаємося-->
+            <h2 class="content"> Чим ми займаємося</h2>
+           <ul>
+            <li><img src="./images/img(1).jpg" alt="Macbook и клавиатура на столе" width="370" /></li>
+            <li> <img src="./images/img(2).jpg" alt="Смартфон и ноутбук" width="370" /></li>
+            <li> <img src="./images/img(3).jpg" alt="Выбор цвета на дисплее в Macbook" width="370" /></li>
+           </ul>
+        </section>
+        <section>
+            <!--Наша команда-->
+            <h2 class="content">Наша команда</h2>
+            <ul>
+                <li>
+                    <img src="./images/comand/Product.jpg" alt="Ігор Дем'яненко" width="270" />
+                    <h3 class="user">Ігор Дем'яненко</h3>
+                    <p lang="en">Product Designer</p>
+                </li>
+                <li>
+                    <img src="./images/comand/Frontend.jpg" alt="Ольга Рєпіна" width="270" />
+                    <h3 class="user">Ольга Рєпіна</h3>
+                    <p lang="en">Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./images/comand/Marketing.jpg" alt="Микола Тарасов" width="270" />
+                    <h3 class="user">Микола Тарасов</h3>
+                    <p lang="en">Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/comand/Designer.jpg" alt="Михайло Єрмаков" width="270" />
+                    <h3 class="user">Михайло Єрмаков</h3>
+                    <p lang="en">UI Designer</p>
+                </li>
+            </ul>
+        </section>
+        <!--Футер-->
+        <footer>
+            <a href="" lang="en" class="nav-web">Web<span class="nav-std">Studio</span></a>
+           
+            <address class="address">
+                <p class="address-cont">м. Київ, пр-т Лесі Українки, 26</p>
+                <a class="tel" href="meilto:info@devstudio.com">info@devstudio.com</a>
+                <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            </address>
+           
+        </footer>
+    </main>
 
-/* Навігація*/
- .nav-std {
-    font-family: 'Raleway';
-    letter-spacing: 0.03em;
-     color: #2196F3;
-    line-height: calc(24 / 14)
- }
+</body>
 
- .nav-web {
-    font-family: 'Raleway';
-    letter-spacing: 0.03em;
-     color: #000000;
-    line-height:calc(16 / 14);
- }
-
- .nav a{
-    color: #212121;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: calc(16 / 14);
- }
-.nav a:hover, .nav:focus{
-
-color: #2196F3;
-font-weight: 500;
-letter-spacing: 0.02em;
-line-height: calc(16 / 14);
-}
-.contacts a{
-    color: #757575;
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    line-height: calc(16 / 14);
-}
-.contacts a:hover,
-.contacts a:focus{
-    color: #2196F3;
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    line-height: calc(16 / 14);
-}
-/*Структура діяльності*/
-.hero{
-    background: #2F303A;
-}
-.hiro-title{
-    color: #FFFFFF;
-font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
- 
-}
-
-.hero .button{
-background: #2196F3;
-color: #FFFFFF;
-    cursor: pointer;
-    font-family: inherit;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        text-align: center;
-        letter-spacing: 0.06em;
-}
-
-.item {
-    font-weight: 700;
-       letter-spacing: 0.03em;
-        text-transform: uppercase;
-    line-height: calc(16 / 14);
-        color: #212121;
-}
-/*Чим ми займаємося*/
-.content{
-    font-weight: 700;
-    line-height: calc(42 / 36);
-        text-align: center;
-        letter-spacing: 0.03em;
-    color: #212121;
-}
-/*Наша команда*/
-.user{
-    font-style: normal;
-        font-weight: 500;
-      line-height: calc(19 / 16);
-    text-align: center;
-        letter-spacing: 0.03em;
-    color: #212121;
-}
-/*Кнопки*/
-.button{
-    color: #212121;
-    background: #F5F4FA;
-    font-style: normal;
-        font-weight: 500;
-    line-height: calc(26 / 16);
-        text-align: center;
-    color: #212121;
-}
-
-.button:hover,.button:focus {
-    background: #2196F3;
-    color: #FFFFFF;font-style: normal;
-        font-weight: 500;
-        line-height: calc(26 / 16);
-    text-align: center;
-}
-/*Футер*/
-.address{
-    background: #2F303A;
-}
-.address-cont{
-    font-style: normal;
-    font-weight: 400;
-    line-height: calc(24 / 14);
-    color: #FFFFFF;
-}
-.tel{
-    font-style: normal;
-        font-weight: 400;
-    line-height: calc(24 / 14);
-        letter-spacing: 0.03em;
-     color: rgba(255, 255, 255, 0.6);
-}
-/*Портфолио*/
-.socials{
-    font-style: normal;
-        font-weight: 700;
-      line-height: calc(36 / 18);
-    letter-spacing: 0.06em;
-     color: #212121;
-}
-.text{
-    font-style: normal;
-        font-weight: 400;
-        line-height: calc(30 / 16);
-}
+</html>
