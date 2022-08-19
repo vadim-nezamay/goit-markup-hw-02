@@ -6,6 +6,8 @@
     --black-color: #000000;
     --text-footer: rgba(255, 255, 255, 0.6);
     --secondary-bg-color: #f5f4fa;
+    --title-text-color: #212121;
+    --footer-bg-color: #2f303a;
 }
 body{
     color:var(--primary-text-color);
@@ -35,7 +37,7 @@ body{
  }
 
  .nav a{
-    color: #212121;
+    color:var(--title-text-color);
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: calc(16 / 14);
@@ -62,7 +64,7 @@ line-height: calc(16 / 14);
 }
 /*Структура діяльності*/
 .hero{
-    background: #2F303A;
+    background:var(--footer-bg-color);
 }
 .hiro-title{
     color:var(--primary-white-color);
@@ -92,7 +94,7 @@ color:var(--primary-white-color);
        letter-spacing: 0.03em;
         text-transform: uppercase;
     line-height: calc(16 / 14);
-        color: #212121;
+        color:var(--title-text-color);
 }
 /*Чим ми займаємося*/
 .content{
@@ -100,7 +102,7 @@ color:var(--primary-white-color);
     line-height: calc(42 / 36);
         text-align: center;
         letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--title-text-color);
 }
 /*Наша команда*/
 .user{
@@ -109,17 +111,17 @@ color:var(--primary-white-color);
       line-height: calc(19 / 16);
     text-align: center;
         letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--title-text-color);
 }
 /*Кнопки*/
 .button{
-    color: #212121;
+    color:var(--title-text-color);
     background:var(--secondary-bg-color);
     font-style: normal;
         font-weight: 500;
     line-height: calc(26 / 16);
         text-align: center;
-    color: #212121;
+    color:var(--title-text-color);
 }
 
 .button:hover,.button:focus {
@@ -132,7 +134,7 @@ color:var(--primary-white-color);
 }
 /*Футер*/
 .address{
-    background: #2F303A;
+    background:var(--footer-bg-color);
 }
 .address-cont{
     font-style: normal;
@@ -153,7 +155,7 @@ color:var(--primary-white-color);
      font-weight: 700;
       line-height: calc(36 / 18);
     letter-spacing: 0.06em;
-     color: #212121;
+     color:var(--title-text-color);
 }
 .text{
     font-style: normal;
