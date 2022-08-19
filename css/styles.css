@@ -4,10 +4,12 @@
     --acccent-color: #2196f3;
     --primary-white-color: #ffffff;
     --black-color: #000000;
+    --text-footer: rgba(255, 255, 255, 0.6);
+    --secondary-bg-color: #f5f4fa;
 }
 body{
     color:var(--primary-text-color);
-    background-color: #F5F5F5;
+    background-color:var(--secondary-bg-color);
     letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
 }
@@ -21,7 +23,7 @@ body{
  .nav-std {
     font-family: 'Raleway';
     letter-spacing: 0.03em;
-     color: #2196F3;
+     color:var(--acccent-color);
     line-height: calc(24 / 14)
  }
 
@@ -40,7 +42,7 @@ body{
  }
 .nav a:hover, .nav:focus{
 
-color: #2196F3;
+color:var(--acccent-color);
 font-weight: 500;
 letter-spacing: 0.02em;
 line-height: calc(16 / 14);
@@ -53,7 +55,7 @@ line-height: calc(16 / 14);
 }
 .contacts a:hover,
 .contacts a:focus{
-    color: #2196F3;
+    color:var(--acccent-color);
     letter-spacing: 0.02em;
     font-weight: 500;
     line-height: calc(16 / 14);
@@ -74,7 +76,7 @@ font-weight: 900;
 }
 
 .hero .button{
-background: #2196F3;
+background:var(--acccent-color);
 color:var(--primary-white-color);
     cursor: pointer;
     font-family: inherit;
@@ -112,7 +114,7 @@ color:var(--primary-white-color);
 /*Кнопки*/
 .button{
     color: #212121;
-    background: #F5F4FA;
+    background:var(--secondary-bg-color);
     font-style: normal;
         font-weight: 500;
     line-height: calc(26 / 16);
@@ -121,7 +123,7 @@ color:var(--primary-white-color);
 }
 
 .button:hover,.button:focus {
-    background: #2196F3;
+    background:var(--acccent-color);
     color: #FFFFFF;
     font-style: normal;
         font-weight: 500;
@@ -143,18 +145,18 @@ color:var(--primary-white-color);
         font-weight: 400;
     line-height: calc(24 / 14);
         letter-spacing: 0.03em;
-     color: rgba(255, 255, 255, 0.6);
+     color:var(--text-footer);
 }
 /*Портфолио*/
 .socials{
     font-style: normal;
-        font-weight: 700;
+     font-weight: 700;
       line-height: calc(36 / 18);
     letter-spacing: 0.06em;
      color: #212121;
 }
 .text{
     font-style: normal;
-        font-weight: 400;
-        line-height: calc(30 / 16);
+    font-weight: 400;
+    line-height: calc(30 / 16);
 }
