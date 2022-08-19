@@ -6,98 +6,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--Навигація-->
     <header>
-        <nav>
-            <a href="" lang="en">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
-            </ul>
-        </nav>
-            <!--Контактні данні-->
-
-            <ul>
-                <li><a href="meilto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+    <nav class="nav">
+        <a href="" lang="en" class="nav-web">Web<span class="nav-std">Studio</span></a>
+        <ul>
+            <li><a href="./index.html">Студія</a></li>
+            <li><a href="">Портфоліо</a></li>
+            <li><a href="">Контакти</a></li>
+        </ul>
+    </nav>
+    <!--Контактні данні-->
+    
+    <ul class="contacts">
+        <li><a href="meilto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    </ul>
 
         
     </header>
     <main>
       <section>
         <ul>
-            <li><button type="button">Усі</button></li>
-            <li><button type="button">Веб-сайти</button></li>
-            <li><button type="button">Додатки</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+            <li><button type="button" class="button">Усі</button></li>
+            <li><button type="button" class="button">Веб-сайти</button></li>
+            <li><button type="button" class="button">Додатки</button></li>
+            <li><button type="button" class="button">Дизайн</button></li>
+            <li><button type="button" class="button">Маркетинг</button></li>
         </ul>
-    
+    <!--Портфолио-->
         <ul>
             <li>
-                <img src="./images/portfolio/texn.jpg" alt="Ноутбук з відкритою сторінкою сайта з картками працівників ">
-                <h3>Технокряк</h3>
-                <p>Веб-сайт</p>
+                <img src="./images/portfolio/texn.jpg" alt="Ноутбук з відкритою сторінкою сайта з картками працівників " width="370">
+                <h3 class="socials">Технокряк</h3>
+                <p class="text">Веб-сайт</p>
             </li>
             <li>
-                <img src="./images/portfolio/bask.jpg" alt="Двоє чоловіків, які грають у баскетбол за різні команди, борються за м'яч">
-                <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p>
+                <img src="./images/portfolio/bask.jpg"
+                    alt="Двоє чоловіків, які грають у баскетбол за різні команди, борються за м'яч" width="370">
+                <h3 class="socials">Постер New Orlean vs Golden Star</h3>
+                <p class="text">Дизайн</p>
             </li>
             <li>
-                <img src="./images/portfolio/rest.jpg" alt="Полупрозрачная рыба на фоне надписи">
-                <h3>Ресторан Seafood</h3>
-                <p>Додаток</p>
+                <img src="./images/portfolio/rest.jpg" alt="Полупрозрачная рыба на фоне надписи" width="370">
+                <h3 class="socials">Ресторан Seafood</h3>
+                <p class="text">Додаток</p>
             </li>
             <li>
-                <img src="./images/portfolio/irpods.jpg" alt="Великі навушники">
-                <h3>Проєкт Prime</h3>
-                <p>Маркетинг</p>
+                <img src="./images/portfolio/irpods.jpg" alt="Великі навушники" width="370">
+                <h3 class="socials">Проєкт Prime</h3>
+                <p class="text">Маркетинг</p>
             </li>
             <li>
-                <img src="./images/portfolio/box.jpg" alt="Дві коробки - велика та маленька">
-                <h3>Проєкт Boxes</h3>
-                <p>Додаток</p>
+                <img src="./images/portfolio/box.jpg" alt="Дві коробки - велика та маленька" width="370">
+                <h3 class="socials">Проєкт Boxes</h3>
+                <p class="text">Додаток</p>
             </li>
             <li>
-                <img src="./images/portfolio/monitor.jpg" alt="Компьютер с открытой страницой сайта с изображением карты">
-                <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p>
+                <img src="./images/portfolio/monitor.jpg" alt="Компьютер с открытой страницой сайта с изображением карты" width="370">
+                <h3 class="socials">Inspiration has no Borders</h3>
+                <p class="text">Веб-сайт</p>
             </li>
             <li>
-                <img src="./images/portfolio/book.jpg" alt="Відкрита книга із зображеннями жінок написом обмежений випуск">
-                <h3>Видання Limited Edition</h3>
-                <p>Дизайн</p>
+                <img src="./images/portfolio/book.jpg" alt="Відкрита книга із зображеннями жінок написом обмежений випуск" width="370">
+                <h3 class="socials">Видання Limited Edition</h3>
+                <p class="text">Дизайн</p>
             </li>
             <li>
-                <img src="./images/portfolio/lebe.jpg" alt="Бірка з написом Lab el tag в PSD макеті">
-                <h3>Проєкт LAB</h3>
-                <p>Маркетинг</p>
+                <img src="./images/portfolio/lebe.jpg" alt="Бірка з написом Lab el tag в PSD макеті" width="370">
+                <h3 class="socials">Проєкт LAB</h3>
+                <p class="text">Маркетинг</p>
             </li>
             <li>
-                <img src="./images/portfolio/laptop.jpg" alt="Чоловічі руки натискають на кнопки клавіатури в ноутбуку, в якому відкрито сторінку із зображенням чоловіка з телефоном">
-                <h3>Growing Business</h3>
-                <p>Додаток</p>
+                <img src="./images/portfolio/laptop.jpg"
+                    alt="Чоловічі руки натискають на кнопки клавіатури в ноутбуку, в якому відкрито сторінку із зображенням чоловіка з телефоном" width="370">
+                <h3 class="socials">Growing Business</h3>
+                <p class="text">Додаток</p>
             </li>
         </ul>
       </section>
     </main>
         
+        <!--Футер-->
         <footer>
-            <a href="" lang="en"><span>WebStudio</span></a>
-
-            <address>
-                <p>м. Київ, пр-т Лесі Українки, 26</p>
-                <a href="meilto:info@devstudio.com">info@devstudio.com</a>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="" lang="en" class="nav-web">Web<span class="nav-std">Studio</span></a>
+        
+            <address class="address">
+                <p class="address-cont">м. Київ, пр-т Лесі Українки, 26</p>
+                <a class="tel" href="meilto:info@devstudio.com">info@devstudio.com</a>
+                <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
             </address>
-
+        
         </footer>
 
 
