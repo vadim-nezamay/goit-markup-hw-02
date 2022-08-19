@@ -1,6 +1,12 @@
-
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --acccent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --black-color: #000000;
+}
 body{
-    color:#757575;
+    color:var(--primary-text-color);
     background-color: #F5F5F5;
     letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
@@ -22,7 +28,7 @@ body{
  .nav-web {
     font-family: 'Raleway';
     letter-spacing: 0.03em;
-     color: #000000;
+     color:var(--black-color);
     line-height:calc(16 / 14);
  }
 
@@ -40,7 +46,7 @@ letter-spacing: 0.02em;
 line-height: calc(16 / 14);
 }
 .contacts a{
-    color: #757575;
+    color:var(--primary-text-color);
     letter-spacing: 0.02em;
     font-weight: 500;
     line-height: calc(16 / 14);
@@ -57,7 +63,7 @@ line-height: calc(16 / 14);
     background: #2F303A;
 }
 .hiro-title{
-    color: #FFFFFF;
+    color:var(--primary-white-color);
 font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -69,7 +75,7 @@ font-weight: 900;
 
 .hero .button{
 background: #2196F3;
-color: #FFFFFF;
+color:var(--primary-white-color);
     cursor: pointer;
     font-family: inherit;
         font-weight: 700;
@@ -116,7 +122,8 @@ color: #FFFFFF;
 
 .button:hover,.button:focus {
     background: #2196F3;
-    color: #FFFFFF;font-style: normal;
+    color: #FFFFFF;
+    font-style: normal;
         font-weight: 500;
         line-height: calc(26 / 16);
     text-align: center;
