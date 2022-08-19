@@ -1,0 +1,153 @@
+
+body{
+    color:#757575;
+    background-color: #F5F5F5;
+    letter-spacing: 0.03em;
+    font-family: Roboto, sans-serif;
+}
+    a {text-decoration: none;}
+    
+    ul {
+        list-style: none;
+        }
+
+/* Навігація*/
+ .nav-std {
+    font-family: 'Raleway';
+    letter-spacing: 0.03em;
+     color: #2196F3;
+    line-height: calc(24 / 14)
+ }
+
+ .nav-web {
+    font-family: 'Raleway';
+    letter-spacing: 0.03em;
+     color: #000000;
+    line-height:calc(16 / 14);
+ }
+
+ .nav a{
+    color: #212121;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: calc(16 / 14);
+ }
+.nav a:hover, .nav:focus{
+
+color: #2196F3;
+font-weight: 500;
+letter-spacing: 0.02em;
+line-height: calc(16 / 14);
+}
+.contacts a{
+    color: #757575;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: calc(16 / 14);
+}
+.contacts a:hover,
+.contacts a:focus{
+    color: #2196F3;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: calc(16 / 14);
+}
+/*Структура діяльності*/
+.hero{
+    background: #2F303A;
+}
+.hiro-title{
+    color: #FFFFFF;
+font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+ 
+}
+
+.hero .button{
+background: #2196F3;
+color: #FFFFFF;
+    cursor: pointer;
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        letter-spacing: 0.06em;
+}
+
+.item {
+    font-weight: 700;
+       letter-spacing: 0.03em;
+        text-transform: uppercase;
+    line-height: calc(16 / 14);
+        color: #212121;
+}
+/*Чим ми займаємося*/
+.content{
+    font-weight: 700;
+    line-height: calc(42 / 36);
+        text-align: center;
+        letter-spacing: 0.03em;
+    color: #212121;
+}
+/*Наша команда*/
+.user{
+    font-style: normal;
+        font-weight: 500;
+      line-height: calc(19 / 16);
+    text-align: center;
+        letter-spacing: 0.03em;
+    color: #212121;
+}
+/*Кнопки*/
+.button{
+    color: #212121;
+    background: #F5F4FA;
+    font-style: normal;
+        font-weight: 500;
+    line-height: calc(26 / 16);
+        text-align: center;
+    color: #212121;
+}
+
+.button:hover,.button:focus {
+    background: #2196F3;
+    color: #FFFFFF;font-style: normal;
+        font-weight: 500;
+        line-height: calc(26 / 16);
+    text-align: center;
+}
+/*Футер*/
+.address{
+    background: #2F303A;
+}
+.address-cont{
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(24 / 14);
+    color: #FFFFFF;
+}
+.tel{
+    font-style: normal;
+        font-weight: 400;
+    line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
+}
+/*Портфолио*/
+.socials{
+    font-style: normal;
+        font-weight: 700;
+      line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+     color: #212121;
+}
+.text{
+    font-style: normal;
+        font-weight: 400;
+        line-height: calc(30 / 16);
+}
