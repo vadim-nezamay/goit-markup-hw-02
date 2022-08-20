@@ -118,7 +118,8 @@ color:var(--primary-white-color);
     color:var(--title-text-color);
 }
 /*Кнопки*/
-.button{
+.button{border: 0;
+    border-radius: 4px;
     color:var(--title-text-color);
     background:var(--secondary-bg-color);
     font-style: normal;
@@ -129,6 +130,8 @@ color:var(--primary-white-color);
 }
 
 .button:hover,.button:focus {
+    border-radius: 4px;
+    border: 0;
     background:var(--acccent-color);
     color: #FFFFFF;
     font-style: normal;
