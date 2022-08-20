@@ -8,6 +8,10 @@
     --secondary-bg-color: #f5f4fa;
     --title-text-color: #212121;
     --footer-bg-color: #2f303a;
+    --primary-font-weight: 400;
+    --secondary-font-weight: 500;
+    --title-font-weight: 700;
+    --hero-title-font-weight: 900;
 }
 body{
     color:var(--primary-text-color);
