@@ -152,7 +152,20 @@ line-height: calc(19 / 16);
 letter-spacing: 0.03em;
 }
 /*Кнопки*/
+.bt-one
+{font-weight: 700;
+    font-family: 'Roboto';
+    border: 0;
+    border-radius: 4px;
+    background: var(--acccent-color);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(30 / 16);
+    text-align: center;
+    color: var(--primary-white-color);}
+    
 .button{
+    font-weight: 500;
     font-family: 'Roboto';
     border: 0;
     border-radius: 4px;
@@ -166,6 +179,7 @@ letter-spacing: 0.03em;
 }
 
 .button:hover,.button:focus {
+    font-weight: 500;
     border-radius: 4px;
     border: 0;
     background:var(--acccent-color);
