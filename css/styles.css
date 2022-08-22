@@ -165,6 +165,7 @@ letter-spacing: 0.03em;
     color: var(--primary-white-color);}
     
 .button{
+    cursor: pointer;
     font-weight: 500;
     font-family: 'Roboto';
     border: 0;
@@ -179,6 +180,7 @@ letter-spacing: 0.03em;
 }
 
 .button:hover,.button:focus {
+    cursor: pointer;
     font-weight: 500;
     border-radius: 4px;
     border: 0;
