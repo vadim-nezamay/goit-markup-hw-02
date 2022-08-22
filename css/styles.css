@@ -26,6 +26,7 @@ body{
 
 /* Навігація*/
  .nav-std {
+    font-weight: 700;
     font-family: 'Raleway';
     letter-spacing: 0.03em;
      color:var(--acccent-color);
@@ -33,6 +34,7 @@ body{
  }
 
  .nav-web {
+    font-weight: 700;
     font-family: 'Raleway';
     letter-spacing: 0.03em;
      color:var(--black-color);
