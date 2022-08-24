@@ -49,13 +49,26 @@ body{
     letter-spacing: 0.03em;
      color:var(--acccent-color);
     line-height: calc(24 / 14)
+
  }
+.header-logo .accent {
+color: var(--black-color);
+  
+}
+.footer-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+color: var(--acccent-color);
+}
 
  .accent {
     font-weight: 700;
     font-family: 'Raleway';
     letter-spacing: 0.03em;
-     color:var(--black-color);
+ color: var(--primary-white-color);
     line-height:calc(16 / 14);
  }
 
@@ -139,23 +152,21 @@ font-weight: 900;
 .team-item{
     background: #FFFFFF;
 }
-.user{
+.team-user{
     text-align: center;
-    font-style: normal;
+  
     font-size: 16px;
         font-weight: 500;
       line-height: calc(19 / 16);
-   letter-spacing: 0.03em;
+   
     color:var(--title-text-color);
 }
-.texn{
-    font-style: normal;
-    text-align: center;
+.team-text{
+text-align: center;
     font-family: inherit;
 font-size: 16px;
-line-height: calc(19 / 16);
-letter-spacing: 0.03em;
-}
+line-height: calc(19 / 16);}
+
 /*Кнопки*/
 .bt-one
 {font-weight: 700;
@@ -197,6 +208,8 @@ letter-spacing: 0.03em;
     text-align: center;
 }
 /*Футер*/
+
+
 .address{
     background:var(--footer-bg-color);
 }
