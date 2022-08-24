@@ -14,26 +14,44 @@
     --hero-title-font-weight: 900;
 }
 body{
+    background-color: var(--primary-white-color);
     color:var(--primary-text-color);
     letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
+    font-size: 14px;
+
 }
-    a {text-decoration: none;}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+    .link {
+        text-decoration: none;
+        color: inherit;}
     
-    ul {
+   .list {
         list-style: none;
         }
 
 /* Навігація*/
- .nav-std {
+ .header-logo {
     font-weight: 700;
+    font-size: 26px;
     font-family: 'Raleway';
     letter-spacing: 0.03em;
      color:var(--acccent-color);
     line-height: calc(24 / 14)
  }
 
- .nav-web {
+ .accent {
     font-weight: 700;
     font-family: 'Raleway';
     letter-spacing: 0.03em;
@@ -41,38 +59,30 @@ body{
     line-height:calc(16 / 14);
  }
 
- .navi-web {
-    font-family: 'Raleway';
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    line-height:calc(16 / 14);
- }
-
- .nav a{
-    color:var(--title-text-color);
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: calc(16 / 14);
+ 
+ .nav {
+     color: var(--title-text-color);
+     font-weight: 500;
+    font-size: 14px;
+     letter-spacing: 0.02em;
+     line-height: calc(16 / 14);
  }
 .nav a:hover, .nav:focus{
-
 color:var(--acccent-color);
-font-weight: 500;
-letter-spacing: 0.02em;
-line-height: calc(16 / 14);
 }
-.contacts a{
+.contacts-link{
+    font-size: 14px;
     color:var(--primary-text-color);
     letter-spacing: 0.02em;
     font-weight: 500;
     line-height: calc(16 / 14);
 }
-.contacts a:hover,
-.contacts a:focus{
+.contacts-link:hover,
+.contacts-link:focus{
     color:var(--acccent-color);
     letter-spacing: 0.02em;
-    font-weight: 500;
-    line-height: calc(16 / 14);
+        font-weight: 500;
+        line-height: calc(16 / 14);
 }
 /*Структура діяльності*/
 .hero{
@@ -89,40 +99,35 @@ font-weight: 900;
  
 }
 
-.hero .button{
-background:var(--acccent-color);
-color:var(--primary-white-color);
+.hero .button {
+    background: var(--acccent-color);
+    color: var(--primary-white-color);
     cursor: pointer;
     font-family: inherit;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        text-align: center;
-        letter-spacing: 0.06em;
-}
-
-.item {
     font-weight: 700;
-       letter-spacing: 0.03em;
-        text-transform: uppercase;
-    line-height: calc(16 / 14);
-        color:var(--title-text-color);
-        font-style: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
-.my-item{
-    font-style: normal;
-font-size: 14px;
-line-height: calc(16 / 14);
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    color: var(--title-text-color);
+    text-transform: uppercase;
+}
+.features-text {
+   line-height: calc(16 / 14);
 }
 /*Чим ми займаємося*/
-my-content{
+.doing {
     background: #F5F5F5;
 }
-.content-com{
-   background: #F5F4FA;
-    
+.team {background: #F5F4FA;
+
 }
-.content{
+.section-title{
     font-weight: 700;
     font-size: 36px;
     line-height:1.16;
@@ -131,7 +136,7 @@ my-content{
     text-align: center;
 }
 /*Наша команда*/
-.my-user{
+.team-item{
     background: #FFFFFF;
 }
 .user{
