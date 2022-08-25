@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Studio</title>
+    <title>WebStudio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css">
@@ -20,7 +20,7 @@
         <ul class="nav-list list">
 
             <li><a class="link" href="./index.html">Студія</a></li>
-            <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
+            <li><a class="link current" href="./portfolio.html">Портфоліо</a></li>
             <li><a class="link" href="">Контакти</a></li>
         </ul>
     </nav>
@@ -35,7 +35,8 @@
 </header>
     <main>
       <section>
-        <ul>
+        <h1 class="visually-hidden">Portfolio</h1>
+        <ul class="list">
             <li><button type="button" class="button">Усі</button></li>
             <li><button type="button" class="button">Веб-сайти</button></li>
             <li><button type="button" class="button">Додатки</button></li>
@@ -43,7 +44,7 @@
             <li><button type="button" class="button">Маркетинг</button></li>
         </ul>
     <!--Портфолио-->
-        <ul>
+        <ul class="list">
             <li>
                 <img src="./images/portfolio/texn.jpg" alt="Ноутбук з відкритою сторінкою сайта з картками працівників " width="370">
                 <h3 class="socials">Технокряк</h3>
@@ -97,12 +98,15 @@
         
         <!--Футер-->
         <footer class="address">
-            <a href="" lang="en" class="nav-std">Web<span class="nav-web">Studio</span></a>
+            <a href="./index.html" lang="en" class="footer-logo link">Web<span class="accent">Studio</span></a>
         
-            <address >
-                <p class="address-cont">м. Київ, пр-т Лесі Українки, 26</p>
-                <a class="tel" href="meilto:info@devstudio.com">info@devstudio.com</a>
-                <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            <address class="footer-address">
+                <ul class="list">
+                    <li><a href="https://goo.gl/maps/Q1Ch7mxqpmP8pEwYA" target="_blank" rel="noopener nofollow "
+                            class="adress-link link">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li><a class="address-contact link" href="meilto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="address-contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
             </address>
         
         </footer>
